@@ -1,0 +1,51 @@
+/* body {
+	padding-top: 50px;
+  }
+  @media (max-width: 979px) {
+	body {
+	  padding-top: 0px;
+	}
+  } */
+
+  header {
+	background: url(../jpg/home.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #cfcfcf;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.intro-text {
+	position: relative;
+	padding-top: 100px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 240px;
+}
+
+.intro-text h1 {
+	font-size: 60px;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+.intro-text h2 {
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+.intro-text h3 {
+	font-size: px;
+	color: #FF4D6A;
+	font-weight: 500;
+}
+
+.intro-text .brand {
+	font-weight: 700;
+}
+
+.navbar {
+	display: none;
+	}
