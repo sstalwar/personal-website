@@ -11,14 +11,14 @@
 	background: url(../jpg/home.jpg) no-repeat bottom center;
 	background-size: cover;
 	color: #cfcfcf;
-	position: absolute;
-	height: 100%;
+	position: relative;
+	height: 800px;
 	width: 100%;
 }
 
 .intro-text {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 240px;
@@ -46,6 +46,57 @@
 	font-weight: 700;
 }
 
+#about_section {
+	background:#FFFFFF;
+	padding:80px 0;
+	padding-bottom:20px;
+}
+
+.section-title.center {
+	padding: 30px 0;
+}
+
+
 .navbar {
 	display: none;
 	}
+
+.aboutme_button{
+	background: transparent;
+	color: white;
+	border: 2px solid;
+	border-color:  #FF4D6A;
+}
+
+/* Social Section */
+#social-section {
+	padding: 20px 0 10px 0;
+	background-color: gray;
+	text-align: center;
+}
+#social-section .social ul li {
+	display: inline-block;
+	margin: 10px 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#social-section .social i.fa {
+	color: #f59898;
+	font-size: 26px;
+	padding: 8px 0;
+	width: 40px;
+	height: 40px;
+	transition: all 0.5s;
+}
+#social-section .social i.fa:hover {
+	color: #fff;
+	background: #f59898;
+}
+
+#social-section .social ul li {
+	margin: 10px;
+}
+#social-section .social ul{
+	-webkit-padding-start: 0px !important;
+	padding-left: 0px;
+}
