@@ -7,7 +7,10 @@
 	}
   } */
 
-  header {
+html {
+	scroll-behavior: smooth;
+}
+header {
 	background: url(../jpg/home.jpg) no-repeat bottom center;
 	background-size: cover;
 	color: #cfcfcf;
