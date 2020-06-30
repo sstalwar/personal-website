@@ -68,6 +68,10 @@ header {
 	background: transparent;
 	color: white;
 	border: 2px solid;
+	border-color:  rgb(114, 112, 112);
+}
+
+.aboutme_button:hover {
 	border-color:  #FF4D6A;
 }
 
