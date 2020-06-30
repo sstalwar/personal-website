@@ -69,6 +69,8 @@ header {
 	color: white;
 	border: 2px solid;
 	border-color:  rgb(114, 112, 112);
+	height: 45px;
+	width: 200px;
 }
 
 .aboutme_button:hover {
